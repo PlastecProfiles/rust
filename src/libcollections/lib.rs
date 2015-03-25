@@ -33,7 +33,7 @@
 #![feature(unicode)]
 #![feature(unsafe_destructor)]
 #![feature(unique)]
-#![feature(unsafe_no_drop_flag)]
+#![feature(unsafe_no_drop_flag, filling_drop)]
 #![feature(step_by)]
 #![feature(str_char)]
 #![cfg_attr(test, feature(rand, rustc_private, test))]
